@@ -84,6 +84,10 @@
         "alarm_state": {
           "name": "Alarm State",
           "description": "The Home Assistant Alarm Control Panel Entity state."
+        },
+        "delay": {
+          "name": "Delay",
+          "description": "The delay in seconds before the alarm state change takes effect. This is only applicable when the alarm_state is \"arming\" or \"pending\"."
         }
       }
     },

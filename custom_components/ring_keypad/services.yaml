@@ -24,9 +24,6 @@ update_alarm_state:
     delay:
       required: false
       example: 30
-      description: >
-        The delay in seconds before the alarm state change takes effect.  This is only
-        applicable when the alarm_state is "arming" or "pending".
       selector:
         number:
           min: 0
