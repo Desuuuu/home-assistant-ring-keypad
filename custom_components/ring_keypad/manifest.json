@@ -1,7 +1,9 @@
 {
   "domain": "ring_keypad",
   "name": "Ring Keypad",
-  "codeowners": ["@allenporter"],
+  "codeowners": [
+    "@allenporter"
+  ],
   "config_flow": true,
   "documentation": "https://github.com/allenporter/home-assistant-ring-keypad",
   "integration_type": "helper",

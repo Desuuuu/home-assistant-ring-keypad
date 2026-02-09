@@ -100,7 +100,7 @@ async def mock_automation(
 @pytest.fixture
 def events(hass: HomeAssistant) -> list[Event[Mapping[str, Any]]]:
     """Fixture that catches notify events."""
-    return async_capture_events(hass, "notify")  # type: ignore[no-any-return]
+    return async_capture_events(hass, "notify")
 
 
 @pytest.mark.parametrize(
@@ -249,7 +249,7 @@ async def test_keypad_input(
             0,
             0,
             "triggered",
-            {"property": 13, "property_key": 1, "value": 100},
+            {"property": 13, "property_key": 9, "value": 100},
         ),
         (
             "alarm_trigger",
