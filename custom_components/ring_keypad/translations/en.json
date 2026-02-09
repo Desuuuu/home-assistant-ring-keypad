@@ -88,6 +88,10 @@
         "delay": {
           "name": "Delay",
           "description": "The delay in seconds before the alarm state change takes effect. This is only applicable when the alarm_state is \"arming\" or \"pending\"."
+        },
+        "volume": {
+          "name": "Volume",
+          "description": "The volume of the audio announcement. Not applicable when the alarm_state is \"arming\" or \"pending\"."
         }
       }
     },
